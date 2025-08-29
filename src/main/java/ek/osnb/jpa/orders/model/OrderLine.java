@@ -8,7 +8,6 @@ import jakarta.persistence.ManyToOne;
 @Entity
 public class OrderLine extends BaseEntity {
 
-    @JsonBackReference
     @ManyToOne
     private Order order;
 
